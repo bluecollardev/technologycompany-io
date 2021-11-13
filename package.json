@@ -6,10 +6,14 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.2.1",
     "autoprefixer": "^10.4.0",
     "nuxt3": "latest",
     "postcss": "^8.3.11",
+    "sass": "^1.43.2",
+    "tailwind-config-viewer": "^1.6.2",
     "tailwindcss": "^2.2.19"
+  },
+  "engines": {
+    "node": ">=14.18.1"
   }
 }
