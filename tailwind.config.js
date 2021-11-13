@@ -28,9 +28,10 @@ module.exports = {
       yellow: colors.amber,
     },
     fontFamily: {
-       'sans': ['"Fira Mono"'],
+       'sans': ['Genos'],
        'serif': ['"Fira Mono"'],
        'mono': ['"Fira Mono"'],
+       'title': ['Monoton']
 
     },
     extend: {

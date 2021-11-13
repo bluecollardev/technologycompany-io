@@ -20,14 +20,14 @@ if (process.server) {
       <div class="w-7 sm:w-4/12 px-4 m-0">
     <img src="assets/images/logo.png" class="h-auto"  />
     </div>
-    <div class="flex flex-nowrap flex-row items-center w-6/12 justify-evenly">
-    <span>Home</span>
+    <div class="flex flex-nowrap flex-row items-center w-6/12 justify-evenly text-xl">
+    <span 	>Home</span>
     <span>About Us</span>
     <span>Services</span>
     <span>Contact</span>
     </div>
   </header>
-
+  <span class="absolute right-10	bottom-20 font-title text-4xl">Winning Never Felt Better</span>
   </div>
   <div class="p-3 bg-secondary"></div>
 </template>
