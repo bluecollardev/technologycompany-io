@@ -14,22 +14,30 @@ module.exports = {
     backgroundColor: theme => ({
     ...theme('colors'),
     'primary': '#FF41F8',
-    'secondary': '#b7ff65',
+    'secondary': '#C1FF78',
     'danger': '#01cdfe',
     }),
+    fontSize: {
+      sm: ['10px', '14px'],
+      base: ['16px', '18px'],
+      lg: ['20px', '28px'],
+      xl: ['24px', '32px'],
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
       black: colors.black,
       white: colors.white,
-      gray: '#C9CACC',
+      gray: colors.gray,
+      special: '#C9CACC',
       indigo: colors.indigo,
       red: colors.rose,
       yellow: colors.amber,
     },
     fontFamily: {
-       'sans': ['Genos'],
-       'serif': ['"Fira Mono"'],
+       'sans': ['Roboto'],
+       'header': ['Genos'],
+       'serif': ['"Rokkitt"'],
        'mono': ['"Fira Mono"'],
        'title': ['Monoton']
 
@@ -38,6 +46,7 @@ module.exports = {
        backgroundImage: {
          'hero-pattern': "url('assets/images/main.jpg')",
          'footer-texture': "url('/img/footer-texture.png')",
+         'about-us-team': "url('assets/images/about-us-team.jpg')"
         }
     }
   },
