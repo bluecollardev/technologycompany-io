@@ -43,8 +43,8 @@ if (process.server) {
   </div>
   <div class="p-3 pl-11 bg-secondary">
     <div class="flex flex-row justify-evenly flex-wrap p-5">
-      <div class="w-6/12 h-72">
-        <div class="bg-cover filter bg-about-us-team h-5/6 sepia"></div>
+      <div class="w-6/12 flex flex-row justify-end">
+        <div class="bg-cover h-72 w-72 filter bg-about-us-team sepia"></div>
       </div>
       <div class="flex flex-col w-6/12 p-5 text-black">
         <div>
